@@ -1,6 +1,16 @@
-$font-main: 'Roboto', 'Arial', sans-serif;
 $color-text-nav: #060b35;
 $color-accent: #00acdc;
 $color-title-hover: #34568b;
 $color-white: #fff;
-$transition-duration: 300ms;
+$color-stars-empty: #ccc;
+$color-stars-filled: #ffc107;
+$font-main: 'Roboto', sans-serif;
+$transition-speed: 300ms;
+$catalog-padding-v: 50px;
+$catalog-padding-h: 40px;
+$catalog-gap-v: 46px;
+$catalog-gap-h: 48px;
+$card-width: 200px;
+$bp-mobile-plus: 488px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;

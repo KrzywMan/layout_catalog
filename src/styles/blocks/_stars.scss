@@ -1,0 +1,12 @@
+.stars {
+  display: flex;
+  gap: 4px;
+  font-size: 14px;
+  color: $color-stars-empty;
+
+  &__item {
+    &--filled {
+      color: $color-stars-filled;
+    }
+  }
+}

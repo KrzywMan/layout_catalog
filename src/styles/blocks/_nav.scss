@@ -1,17 +1,17 @@
 .nav {
   &__list {
     display: flex;
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style: none;
     gap: 20px;
   }
 
   &__link {
-    text-decoration: none;
-    color: $color-text-nav;
     font-weight: 500;
-    transition: color $transition-duration;
+    color: $color-text-nav;
+    text-decoration: none;
+    transition: color $transition-speed;
     cursor: pointer;
 
     &:hover,
