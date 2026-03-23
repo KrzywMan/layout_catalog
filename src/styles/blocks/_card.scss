@@ -1,0 +1,53 @@
+.card {
+  width: 200px;
+  transition: transform $transition-duration;
+  cursor: pointer;
+
+  &__image {
+    width: 100%;
+    display: block;
+  }
+
+  &__title {
+    font-size: 16px;
+    margin: 0 0 10px;
+    transition: color $transition-duration;
+    color: $color-text-nav;
+  }
+
+  &__content {
+    padding: 10px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  &__button {
+    text-decoration: none;
+    background-color: $color-accent;
+    color: $color-white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition:
+      background-color $transition-duration,
+      color $transition-duration;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-accent;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    z-index: 1;
+
+    .card__title {
+      color: $color-title-hover;
+    }
+  }
+}
