@@ -1,7 +1,7 @@
 .stars {
   display: flex;
-  gap: 4px;
-  font-size: 14px;
+  gap: $spacing-xs;
+  font-size: $font-size-sm;
   color: $color-stars-empty;
 
   &__item {

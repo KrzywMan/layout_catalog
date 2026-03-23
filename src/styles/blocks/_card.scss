@@ -1,8 +1,8 @@
 .card {
   position: relative;
   width: $card-width;
-  border-radius: 8px;
-  background-color: #f9f9f9;
+  border-radius: $spacing-xs;
+  background-color: $color-card-bg;
   transition: transform $transition-speed;
   cursor: pointer;
 
@@ -30,7 +30,7 @@
 
   &__price {
     font-weight: 700;
-    color: $color-nav-text;
+    color: $color-text-nav;
   }
 
   &__button {
@@ -39,7 +39,7 @@
     text-decoration: none;
     background-color: $color-accent;
     border: 1px solid $color-accent;
-    border-radius: 4px;
+    border-radius: $spacing-xs;
     transition:
       background-color $transition-speed,
       color $transition-speed;
